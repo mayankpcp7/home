@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Slackey&display=swap');
+
 :root {
     /* font sizes  */
     --fs-xsm: 14px;
@@ -24,10 +25,11 @@
     --color-lightorange: #FFE4CB;
     --color-carrot: #FF5B2E;
     --color-buttonwhite: #FFFAF5;
-    --color-bodycolor1:#FFF4EA;
-    
+    --color-bodycolor1: #FFF4EA;
+
 
 }
+
 /* font size  */
 .fs_14 {
     font-size: var(--fs-xsm);
@@ -64,45 +66,83 @@
 .fs_55 {
     font-size: var(--fs-5xl);
 }
+
 /* colors  */
-.color_darkblue{
+.color_darkblue {
     color: var(--color-darkblue);
 }
-.color_lightblue{
+
+.color_lightblue {
     color: var(--color-lightblue);
 }
-.color_halfblueopacity{
+
+.color_halfblueopacity {
     color: var(--color-halfblueopacity);
 }
-.color_yellow{
+
+.color_yellow {
     color: var(--color-yellow);
 }
-.color_skyblue{
+
+.color_skyblue {
     color: var(--color-skyblue);
 }
-.color_offwhite{
+
+.color_offwhite {
     color: var(--color-offwhite);
 }
-.color_lightblack{
+
+.color_lightblack {
     color: var(--color-lightblack);
 }
+
 /* background colors  */
-.bg_lightorange{
+.bg_lightorange {
     background-color: var(--color-lightorange);
 }
-.bg_carrot{
+
+.bg_carrot {
     background-color: var(--color-carrot);
 }
-.bg_buttonwhite{
+
+.bg_buttonwhite {
     background-color: var(--color-buttonwhite);
 }
-.bg_bodycolor1{
+
+.bg_bodycolor1 {
     background-color: var(--color-bodycolor1);
 }
+
 /* font family  */
-.ff_poppins{
+.ff_poppins {
     font-family: 'Poppins', sans-serif;
 }
-.ff_slackey{
+
+.ff_slackey {
     font-family: 'Slackey', cursive;
+}
+
+/* font weight  */
+.fw_400 {
+    font-weight: 400;
+}
+
+.fw_500 {
+    font-weight: 500;
+}
+
+.fw_600 {
+    font-weight: 600;
+}
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_800 {
+    font-weight: 800;
+}
+
+.fw_900 {
+    font-weight: 900;
 }
