@@ -23,6 +23,8 @@
     --color-lightorange: #FFE4CB;
     --color-carrot: #FF5B2E;
     --color-buttonwhite: #FFFAF5;
+    --color-bodycolor1:#FFF4EA;
+    
 
 }
 /* font size  */
@@ -92,4 +94,7 @@
 }
 .bg_buttonwhite{
     background-color: var(--color-buttonwhite);
+}
+.bg_bodycolor1{
+    background-color: var(--color-bodycolor1);
 }
