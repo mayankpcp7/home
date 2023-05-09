@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container_m {
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* padding  */
+.pl_28{
+    padding-left: 28px;
+}
+.pr_28{
+    padding-right: 28px;
+}

@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&family=Slackey&display=swap');
 :root {
     /* font sizes  */
     --fs-xsm: 14px;
@@ -97,4 +98,11 @@
 }
 .bg_bodycolor1{
     background-color: var(--color-bodycolor1);
+}
+/* font family  */
+.ff_poppins{
+    font-family: 'Poppins', sans-serif;
+}
+.ff_slackey{
+    font-family: 'Slackey', cursive;
 }
