@@ -1,3 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
 @media(min-width:1140px) {
     .my-container {
         max-width: 1140px !important;
@@ -8,6 +16,200 @@
     }
 }
 
-.max-width-577px {
-    max-width: 577px;
+
+.border-style {
+    border: 10px solid #FFF4EA;
+    border-radius: 100px;
 }
+
+.border-radius-23px {
+    border-radius: 23px;
+}
+
+.top_50 {
+    position: absolute;
+    top: -50%;
+}
+
+
+.card-btn {
+    color: #ffff;
+    background-color: #FF5B2E;
+    border: none;
+    border-radius: 10px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.card-btn:hover.btn-shadow {
+    box-shadow: 0px 13px 26px -8px #FF5B2E6B !important;
+}
+
+.lines {
+    position: absolute;
+    top: 5%;
+    left: 0;
+}
+
+.circles {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.line-height-30px {
+    line-height: 30px !important;
+}
+
+.box-shadow2 {
+    box-shadow: 0px 36px 39px 0px #07003B0A !important;
+}
+
+.line-height-36px {
+    line-height: 36.4px;
+}
+
+.line-height-26px {
+    line-height: 26px;
+}
+
+.max-width-278 {
+    max-width: 278px;
+}
+
+.pera-spacing {
+    word-spacing: 5px;
+}
+
+.curser-pointer {
+    cursor: pointer;
+}
+
+.arrow-position {
+    transform: translate(70%, -120%);
+}
+
+.next-pos {
+    margin-right: 80px;
+}
+
+
+
+.footer-line {
+    max-width: 1140px;
+    height: 2px;
+    background-color: #EEDDCE;
+}
+
+.color-black {
+    color: #89847f;
+}
+
+
+.border-style2 {
+    border: 30px solid #fffaf5;
+    border-radius: 300px;
+}
+
+
+@media(max-width:768px) {
+    .d_md_none {
+        display: none;
+    }
+
+    .max-width-577px {
+        max-width: 577px;
+    }
+
+    .max-width-363px {
+        max-width: 363px;
+    }
+
+
+}
+
+@media(max-width:992px) {
+    .d_none_xl {
+        display: none;
+    }
+
+    .max-width-446px {
+        max-width: 446px;
+    }
+}
+
+@media(min-width:990px) {
+    .chart-circle {
+        width: 36px;
+        height: 35px;
+        border-radius: 50px;
+        background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%);
+        border: 6px solid #FFEFDE;
+        position: absolute;
+        right: -20px;
+        top: -15px;
+        z-index: 1;
+    }
+
+    .p_2 {
+        padding: 8px !important;
+    }
+
+    .max-width-244px {
+        max-width: 244px;
+    }
+
+    .chart-line {
+        max-width: 346px;
+        height: 5px;
+        background-color: #FFEFDE;
+    }
+
+    .chart-circle-2 {
+        width: 36px;
+        height: 35px;
+        border-radius: 50px;
+        background: linear-gradient(145.61deg, rgba(255, 96, 49, 0.6) 15.14%, rgba(249, 168, 14, 0.6) 93.39%);
+        border: 6px solid #FFEFDE;
+        position: absolute;
+        left: -20px;
+        top: -15px;
+        z-index: 2;
+    }
+
+    .right-0 {
+        transform: translateX(220%);
+    }
+
+
+
+    .outer-circle {
+        border: 5px solid #FFEFDE;
+        ;
+        position: relative;
+        border-radius: 300.6px;
+        width: 417px;
+        height: 656px;
+        position: relative;
+
+    }
+
+    .image-position {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+    }
+
+    .middle-position {
+        position: absolute;
+        top: 18%;
+        left: 31.4%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+}
+
+

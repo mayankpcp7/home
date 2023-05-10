@@ -9,28 +9,475 @@
     <link rel="stylesheet" href="/assets/css/root.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- slick min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- slick theam min css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 
 <body>
     <!-- Facilities we provides -->
-    <section class="bg_buttonwhite">
-        <div class="my-container container">
-            <div class="d-flex">
+    <section class="bg_buttonwhite overflow-hidden py-5 my-3">
+        <div class="my-container container position-relative">
+            <div class="d-xl-flex justify-content-between">
                 <div>
-                    <h4>Facilities we
+                    <h4 class="fs_45 color_darkblue max-width-363px ff_slackey fw_400">Facilities we
                         provides</h4>
                 </div>
                 <div>
-                    <p class="max-width-577px">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    <p class="max-width-577px line-height-30px color_halfblueopacity pe-4">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod
+                        tempor incididunt ut
                         labore et dolore magna
                         aliqua. Ut enim ad minim velit esse cillum dolore eu fugiat nulla pariatur.</p>
                 </div>
             </div>
+            <div class="d-sm-flex justify-content-between mt-5">
+                <div class="p-2">
+                    <h4 class="ff_slackey fs_22 color_darkblue">Overnight Care</h4>
+                    <p class="ff_poppins color_halfblueopacity max-width-244px line-height-30px">Ut enim ad minim velit
+                        esse cillum dolore eu fugiat..</p>
+                </div>
+                <div class="p-2">
+                    <h4 class="ff_slackey fs_22 color_darkblue">Feed Training</h4>
+                    <p class="ff_poppins color_halfblueopacity max-width-244px line-height-30px">Ut enim ad minim velit
+                        esse cillum dolore eu fugiat..</p>
+                </div>
+            </div>
+            <div class="py-xl-5 py-2">
+                <div class="chart-line position-relative">
+                    <div class="chart-circle "></div>
+                </div>
+                <div class="chart-line position-relative right-0 z-2">
+                    <div class="chart-circle-2 "></div>
+                </div>
+            </div>
+            <div class="d-sm-flex justify-content-between mt-sm-y5">
+                <div class="p-2">
+                    <h4 class="ff_slackey fs_22 color_darkblue">Health test</h4>
+                    <p class="ff_poppins color_halfblueopacity max-width-244px line-height-30px">tempor incididunt ut
+                        labore et dolore magna aliqua...</p>
+                </div>
+                <div>
+                    <h4 class="ff_slackey fs_22 color_darkblue">Medical Care</h4>
+                    <p class="ff_poppins color_halfblueopacity max-width-244px line-height-30px">tempor incididunt ut
+                        labore et dolore magna aliqua...</p>
+                </div>
+            </div>
+            <div class="py-xl-5 py-2">
+                <div class="chart-line position-relative">
+                    <div class="chart-circle "></div>
+                </div>
+                <div class="chart-line position-relative right-0 z-2">
+                    <div class="chart-circle-2 "></div>
+                </div>
+            </div>
+            <div class="d-sm-flex justify-content-between mt-sm-5">
+                <div class="p-2">
+                    <h4 class="ff_slackey fs_22 color_darkblue">Vaccination</h4>
+                    <p class="ff_poppins color_halfblueopacity max-width-244px line-height-30px">tempor incididunt ut
+                        labore et dolore magna aliqua...</p>
+                </div>
+                <div class="p-2">
+                    <h4 class="ff_slackey fs_22 color_darkblue">Traning Facility</h4>
+                    <p class="ff_poppins color_halfblueopacity max-width-244px line-height-30px">tempor incididunt ut
+                        labore et dolore magna aliqua...</p>
+                </div>
+            </div>
+            <div class="middle-position">
+                <div class="outer-circle">
+                    <div class="d_none_xl"><img class="border-style2 z-0 image-position" src="/assets/images/dog.png"
+                            alt=""></div>
+                </div>
+            </div>
         </div>
     </section>
+
+    <!-- slider-section-->
+    <section class="bg_bodycolor1  py-5 ">
+        <div class="container my-container position-relative pt-3">
+            <div class="lines d_md_none"><img src="/assets/images/line.png" alt="linw"></div>
+            <div class="circles d_md_none"><img src="/assets/images/circles.png" alt=""></div>
+            <h3 class="text-center ff_slackey fs_45 color_darkblue pb-5 mb-5 mt-3">Our Groomers</h3>
+            <div class="row mt-5 pt-5">
+                <div class="col-xl-3 col-lg-4 col-md-6 my-5 pt-5">
+                    <div
+                        class="d-flex flex-column bg_lightorange justify-content-center align-items-center border-radius-23px position-relative">
+                        <div class="top_50"><img class="border-style " src="/assets/images/img-1.png" alt="img-1">
+                        </div>
+                        <div class="mt-5 pt-5">
+                            <h5 class="ff_poppins fw-semibold fs_20 mb-0 pb-2 mt-5 pt-5 color_darkblue">Adam Smith</h5>
+                            <p class="ff_poppins fs_16 color_halfblueopacity text-center pb-3">Veterinarian</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 my-5 col-md-6 col-lg-4 pt-5">
+                    <div
+                        class="d-flex flex-column bg_lightorange justify-content-center align-items-center border-radius-23px position-relative">
+                        <div class="top_50"><img class="border-style " src="/assets/images/img-2.png" alt="img-1">
+                        </div>
+                        <div class="mt-5 pt-5">
+                            <h5 class="ff_poppins fw-semibold fs_20 mb-0 pb-2 mt-5 pt-5 color_darkblue">Morgan Mark</h5>
+                            <p class="ff_poppins fs_16 color_halfblueopacity text-center pb-3">Trainer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-4 my-5 pt-5">
+                    <div
+                        class="d-flex flex-column bg_lightorange justify-content-center align-items-center border-radius-23px position-relative">
+                        <div class="top_50"><img class="border-style " src="/assets/images/img-4.png" alt="img-1">
+                        </div>
+                        <div class="mt-5 pt-5">
+                            <h5 class="ff_poppins fw-semibold fs_20 mb-0 pb-2 mt-5 pt-5 color_darkblue">Ana Fargun</h5>
+                            <p class="ff_poppins fs_16 color_halfblueopacity text-center pb-3">Trainer</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-md-6 col-lg-4  my-5 pt-5">
+                    <div
+                        class="d-flex flex-column bg_lightorange justify-content-center align-items-center border-radius-23px position-relative">
+                        <div class="top_50"><img class="border-style " src="/assets/images/img-3.png" alt="img-1">
+                        </div>
+                        <div class="mt-5 pt-5">
+                            <h5 class="ff_poppins fw-semibold fs_20 mb-0 pb-2 mt-5 pt-5 color_darkblue">Mouran Maz</h5>
+                            <p class="ff_poppins fs_16 color_halfblueopacity text-center pb-3">Care Taker</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center pt-3 pb-5">
+                <button class="card-btn ff_poppins fw-semibold btn-shadow">View Team</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- slider-section -->
+    <section class="bg_buttonwhite py-5 overflow-hidden">
+        <div class="container my-container">
+            <div class="row align-items-center">
+                <div class="col-lg-5">
+                    <div class="py-4">
+                        <h4 class="ff_slackey text-black fw-normal fs_45 mb-4">DaCode Blog</h4>
+                        <p class="ff_poppins max-width-363px color_halfblueopacity line-height-30px pt-2">Lorem ipsum
+                            dolor
+                            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna
+                            aliqua. Ut enim ad minim velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                    <div class="pt-2 z-1">
+                        <button class="card-btn ff_poppins fw-semibold btn-shadow">Learn More</button>
+                    </div>
+                </div>
+                <div class="col-lg-7 ">
+                    <div class="responsive">
+                        <div class="d-flex  bg-white rounded-3 pt-3 pb-4  box-shadow2 mx-2">
+                            <div><img src="/assets/images/dog-2.png" alt=""></div>
+                            <div class="pt-3">
+                                <h4 class="ff_poppins fw-semibold fs_20 line-height-36px ">Why Your SaaS Business should
+                                    use
+                                    WordPress</h4>
+                                <p
+                                    class="ff_poppins color_halfblueopacity opacity-50 line-height-26px max-width-278 pera-spacing ">
+                                    A content management system like WordPress can help you build a highly engaging
+                                    website
+                                    for your SaaS business, with
+                                    little to no effort</p>
+                            </div>
+                        </div>
+                        <div class="d-flex  bg-white rounded-3 pt-3 pb-4  box-shadow2 mx-2 ">
+                            <div><img src="/assets/images/dog-2.png" alt=""></div>
+                            <div class="pt-3">
+                                <h4 class="ff_poppins fw-semibold fs_20 line-height-36px ">Why Your SaaS Business should
+                                    use
+                                    WordPress</h4>
+                                <p
+                                    class="ff_poppins color_halfblueopacity opacity-50 line-height-26px max-width-278 pera-spacing ">
+                                    A content management system like WordPress can help you build a highly engaging
+                                    website
+                                    for your SaaS business, with
+                                    little to no effort</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="arrow-position">
+                    <span><svg class="prev" width="94" height="94" viewBox="0 0 94 94" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_1_229)">
+                                <circle class="curser-pointer" cx="19.8837" cy="19.8837" r="19.8837"
+                                    transform="matrix(1 1.74846e-07 1.74846e-07 -1 27 61.7673)" fill="#FF5B2E" />
+                            </g>
+                            <path class="curser-pointer" d="M51.9467 41.8838L41.8208 41.8838" stroke="white"
+                                stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M45.9632 46.0261L41.8208 41.8837L45.9632 37.7412" stroke="white" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                    <span class="next-pos"><svg class="next" width="94" height="94" viewBox="0 0 " fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <g filter="url(#filter0_d_1_236)">
+                                <circle class="curser-pointer" cx="19.8837" cy="19.8837" r="19.8837"
+                                    transform="matrix(-1 -2.62268e-07 -2.62268e-07 1 66.7675 22.0002)" fill="#FF5B2E" />
+                            </g>
+                            <path d="M41.8207 41.8838L51.9467 41.8838" stroke="white" stroke-width="1.5"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path class="curser-pointer" d="M47.8043 37.7415L51.9467 41.8839L47.8043 46.0263"
+                                stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer-->
+    <section class="bg_bodycolor1 py-5">
+        <div class="my-container container">
+            <div class="row mt-5 justify-content-between">
+                <div class="col-lg-5 pe-lg-4">
+                    <div>
+                        <p class="ff_slackey fs_27 text-black">Mew</p>
+                    </div>
+                    <div>
+                        <p class="max-width-446px ff_poppins color_halfblueopacity line-height-30px pt-3">Lorem ipsum
+                            dolor
+                            sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna
+                            aliqua. Ut enim ad minim velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    </div>
+                    <div class="d-flex pt-4">
+                        <div><svg width="68" height="68" viewBox="0 0 68 68" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_d_1_249)">
+                                    <circle cx="34" cy="18" r="16" fill="white" />
+                                    <circle cx="34" cy="18" r="15.5" stroke="white" />
+                                </g>
+                                <path opacity="0.7"
+                                    d="M39.4444 11H28.5556C27.7 11 27 11.7 27 12.5556V23.4444C27 24.3008 27.7 25 28.5556 25H34V19.5556H32.4444V17.6306H34V16.0361C34 14.353 34.9427 13.1708 36.9291 13.1708L38.3314 13.1723V15.1984H37.4004C36.6273 15.1984 36.3333 15.7787 36.3333 16.3169V17.6313H38.3307L37.8889 19.5556H36.3333V25H39.4444C40.3 25 41 24.3008 41 23.4444V12.5556C41 11.7 40.3 11 39.4444 11Z"
+                                    fill="#000958" />
+                                <defs>
+                                    <filter id="filter0_d_1_249" x="0" y="0" width="68" height="68"
+                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feMorphology radius="10" operator="erode" in="SourceAlpha"
+                                            result="effect1_dropShadow_1_249" />
+                                        <feOffset dy="16" />
+                                        <feGaussianBlur stdDeviation="14" />
+                                        <feComposite in2="hardAlpha" operator="out" />
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0.828597 0 0 0 0 0.519175 0 0 0 0 0.209752 0 0 0 0.33 0" />
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_1_249" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_249"
+                                            result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div><svg width="68" height="68" viewBox="0 0 68 68" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_d_1_252)">
+                                    <circle cx="34" cy="18" r="16" fill="white" />
+                                    <circle cx="34" cy="18" r="15.5" stroke="white" />
+                                </g>
+                                <path opacity="0.7"
+                                    d="M31.5834 23.9998C32.7022 24.007 33.8112 23.7889 34.8462 23.3583C35.8812 22.9277 36.8215 22.2931 37.6126 21.4913C38.4037 20.6896 39.0299 19.7366 39.4548 18.6877C39.8797 17.6388 40.0948 16.5148 40.0878 15.381V14.9849C40.6677 14.5543 41.1697 14.0252 41.5714 13.4209C41.0253 13.663 40.4475 13.8235 39.856 13.8975C40.4831 13.5188 40.9537 12.9226 41.1806 12.2194C40.5962 12.5748 39.9552 12.8246 39.2864 12.9578C38.8359 12.4714 38.2399 12.1489 37.5904 12.0404C36.941 11.9319 36.2743 12.0433 35.6937 12.3574C35.113 12.6715 34.6507 13.1708 34.3782 13.7781C34.1057 14.3853 34.0383 15.0666 34.1864 15.7166C32.9981 15.6575 31.8355 15.3454 30.7742 14.8007C29.7129 14.256 28.7767 13.4908 28.0266 12.555C27.6484 13.2203 27.5337 14.0065 27.7059 14.7542C27.8781 15.502 28.3242 16.1555 28.9539 16.5825C28.4893 16.5644 28.0355 16.4356 27.6292 16.2066V16.2402C27.6251 16.9355 27.8562 17.6112 28.2841 18.1548C28.7119 18.6983 29.3107 19.0768 29.9805 19.2272C29.5484 19.345 29.0958 19.3634 28.6558 19.2809C28.8498 19.8739 29.2199 20.3916 29.7156 20.7629C30.2113 21.1343 30.8082 21.3411 31.4244 21.3551C30.3708 22.2147 29.0613 22.6878 27.7087 22.6976C27.4716 22.6906 27.235 22.6705 27 22.6372C28.369 23.5212 29.9601 23.9872 31.5834 23.9797"
+                                    fill="#000958" />
+                                <defs>
+                                    <filter id="filter0_d_1_252" x="0" y="0" width="68" height="68"
+                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feMorphology radius="10" operator="erode" in="SourceAlpha"
+                                            result="effect1_dropShadow_1_252" />
+                                        <feOffset dy="16" />
+                                        <feGaussianBlur stdDeviation="14" />
+                                        <feComposite in2="hardAlpha" operator="out" />
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0.828597 0 0 0 0 0.519175 0 0 0 0 0.209752 0 0 0 0.33 0" />
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_1_252" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_252"
+                                            result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div><svg width="68" height="68" viewBox="0 0 68 68" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_d_1_255)">
+                                    <circle cx="34" cy="18" r="16" fill="white" />
+                                    <circle cx="34" cy="18" r="15.5" stroke="white" />
+                                </g>
+                                <path opacity="0.7"
+                                    d="M40.2222 11H27.7778C27.5715 11 27.3737 11.0819 27.2278 11.2278C27.0819 11.3737 27 11.5715 27 11.7778V24.2222C27 24.4285 27.0819 24.6263 27.2278 24.7722C27.3737 24.9181 27.5715 25 27.7778 25H40.2222C40.4285 25 40.6263 24.9181 40.7722 24.7722C40.9181 24.6263 41 24.4285 41 24.2222V11.7778C41 11.5715 40.9181 11.3737 40.7722 11.2278C40.6263 11.0819 40.4285 11 40.2222 11ZM31.1526 22.9288H29.0743V16.2477H31.1526V22.9288ZM30.1134 15.3353C29.7941 15.3353 29.4879 15.2085 29.2621 14.9827C29.0363 14.7569 28.9094 14.4507 28.9094 14.1313C28.9094 13.812 29.0363 13.5058 29.2621 13.28C29.4879 13.0542 29.7941 12.9273 30.1134 12.9273C30.4328 12.9273 30.739 13.0542 30.9648 13.28C31.1906 13.5058 31.3174 13.812 31.3174 14.1313C31.3174 14.4507 31.1906 14.7569 30.9648 14.9827C30.739 15.2085 30.4328 15.3353 30.1134 15.3353ZM38.9296 22.9288H36.8537V19.68C36.8537 18.9053 36.8397 17.909 35.7741 17.909C34.693 17.909 34.5289 18.7537 34.5289 19.6256V22.9296H32.4546V16.2484H34.4457V17.1616H34.4744C34.7506 16.6366 35.4288 16.0828 36.4376 16.0828C38.5407 16.0828 38.9288 17.4657 38.9288 19.2654V22.9288H38.9296Z"
+                                    fill="#000958" />
+                                <defs>
+                                    <filter id="filter0_d_1_255" x="0" y="0" width="68" height="68"
+                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feMorphology radius="10" operator="erode" in="SourceAlpha"
+                                            result="effect1_dropShadow_1_255" />
+                                        <feOffset dy="16" />
+                                        <feGaussianBlur stdDeviation="14" />
+                                        <feComposite in2="hardAlpha" operator="out" />
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0.828597 0 0 0 0 0.519175 0 0 0 0 0.209752 0 0 0 0.33 0" />
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_1_255" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_255"
+                                            result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                        <div><svg width="68" height="68" viewBox="0 0 68 68" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g filter="url(#filter0_d_1_258)">
+                                    <circle cx="34" cy="18" r="16" fill="white" />
+                                    <circle cx="34" cy="18" r="15.5" stroke="white" />
+                                </g>
+                                <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M34 11C32.0988 11 31.8608 11.0084 31.1139 11.042C30.3691 11.0763 29.8602 11.1946 29.415 11.3675C28.9477 11.5431 28.5244 11.8185 28.1746 12.1746C27.8185 12.5244 27.5431 12.9478 27.3675 13.415C27.1946 13.8602 27.0763 14.3691 27.042 15.1139C27.0077 15.8608 27 16.0988 27 18C27 19.9012 27.0077 20.1392 27.042 20.8861C27.0763 21.6309 27.1946 22.1398 27.3675 22.585C27.5431 23.0522 27.8186 23.4755 28.1746 23.8254C28.5245 24.1814 28.9478 24.4569 29.415 24.6325C29.8602 24.8054 30.3691 24.9237 31.1139 24.958C31.8608 24.9916 32.0988 25 34 25C35.9012 25 36.1392 24.9916 36.8861 24.958C37.6309 24.9237 38.1398 24.8054 38.585 24.6325C39.0522 24.4569 39.4756 24.1815 39.8254 23.8254C40.1815 23.4756 40.4569 23.0522 40.6325 22.585C40.8054 22.1398 40.9237 21.6309 40.958 20.8861C40.9916 20.1392 41 19.9012 41 18C41 16.0988 40.9916 15.8608 40.958 15.1139C40.9237 14.3691 40.8054 13.8602 40.6325 13.415C40.4569 12.9478 40.1815 12.5244 39.8254 12.1746C39.4756 11.8185 39.0523 11.5431 38.585 11.3675C38.1398 11.1946 37.6309 11.0763 36.8861 11.042C36.1392 11.0084 35.9012 11 34 11ZM34 12.2614C35.869 12.2614 36.0902 12.2684 36.828 12.302C37.5112 12.3335 37.8815 12.4469 38.1286 12.5428C38.4548 12.6702 38.6886 12.8221 38.9336 13.0664C39.1786 13.3114 39.3298 13.5452 39.4572 13.8714C39.5524 14.1185 39.6672 14.4888 39.698 15.1713C39.7316 15.9098 39.7386 16.1303 39.7386 18C39.7386 19.869 39.7316 20.0902 39.698 20.828C39.6665 21.5112 39.5524 21.8815 39.4572 22.1286C39.345 22.4327 39.1661 22.7077 38.9336 22.9336C38.6886 23.1786 38.4548 23.3298 38.1286 23.4572C37.8815 23.5524 37.5112 23.6672 36.8287 23.698C36.0909 23.7316 35.8697 23.7386 34 23.7386C32.131 23.7386 31.9091 23.7316 31.172 23.698C30.4888 23.6665 30.1185 23.5524 29.8714 23.4572C29.5673 23.345 29.2922 23.1661 29.0664 22.9336C28.8339 22.7078 28.655 22.4327 28.5428 22.1286C28.4469 21.8815 28.3328 21.5112 28.302 20.8287C28.2684 20.0902 28.2614 19.8697 28.2614 18C28.2614 16.131 28.2684 15.9098 28.302 15.172C28.3335 14.4888 28.4469 14.1185 28.5428 13.8714C28.6702 13.5452 28.8221 13.3114 29.0664 13.0664C29.3114 12.8214 29.5452 12.6702 29.8714 12.5428C30.1185 12.4469 30.4888 12.3328 31.1713 12.302C31.9098 12.2684 32.1303 12.2614 34 12.2614ZM34 20.3331C33.3812 20.3331 32.7878 20.0873 32.3502 19.6498C31.9127 19.2122 31.6669 18.6188 31.6669 18C31.6669 17.3812 31.9127 16.7878 32.3502 16.3502C32.7878 15.9127 33.3812 15.6669 34 15.6669C34.6188 15.6669 35.2122 15.9127 35.6498 16.3502C36.0873 16.7878 36.3331 17.3812 36.3331 18C36.3331 18.6188 36.0873 19.2122 35.6498 19.6498C35.2122 20.0873 34.6188 20.3331 34 20.3331ZM34 14.4055C33.528 14.4055 33.0605 14.4985 32.6244 14.6791C32.1883 14.8598 31.7921 15.1245 31.4583 15.4583C31.1245 15.7921 30.8598 16.1883 30.6791 16.6244C30.4985 17.0605 30.4055 17.528 30.4055 18C30.4055 18.472 30.4985 18.9395 30.6791 19.3756C30.8598 19.8117 31.1245 20.2079 31.4583 20.5417C31.7921 20.8755 32.1883 21.1402 32.6244 21.3209C33.0605 21.5015 33.528 21.5945 34 21.5945C34.9533 21.5945 35.8676 21.2158 36.5417 20.5417C37.2158 19.8676 37.5945 18.9533 37.5945 18C37.5945 17.0467 37.2158 16.1324 36.5417 15.4583C35.8676 14.7842 34.9533 14.4055 34 14.4055ZM38.5766 14.2634C38.5766 14.3737 38.5549 14.4829 38.5127 14.5849C38.4704 14.6868 38.4086 14.7794 38.3306 14.8574C38.2526 14.9354 38.16 14.9972 38.0581 15.0395C37.9561 15.0817 37.8469 15.1034 37.7366 15.1034C37.6263 15.1034 37.5171 15.0817 37.4151 15.0395C37.3132 14.9972 37.2206 14.9354 37.1426 14.8574C37.0646 14.7794 37.0028 14.6868 36.9605 14.5849C36.9183 14.4829 36.8966 14.3737 36.8966 14.2634C36.8966 14.0406 36.9851 13.827 37.1426 13.6694C37.3002 13.5119 37.5138 13.4234 37.7366 13.4234C37.9594 13.4234 38.173 13.5119 38.3306 13.6694C38.4881 13.827 38.5766 14.0406 38.5766 14.2634Z"
+                                    fill="#000958" />
+                                <defs>
+                                    <filter id="filter0_d_1_258" x="0" y="0" width="68" height="68"
+                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                        <feColorMatrix in="SourceAlpha" type="matrix"
+                                            values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                        <feMorphology radius="10" operator="erode" in="SourceAlpha"
+                                            result="effect1_dropShadow_1_258" />
+                                        <feOffset dy="16" />
+                                        <feGaussianBlur stdDeviation="14" />
+                                        <feComposite in2="hardAlpha" operator="out" />
+                                        <feColorMatrix type="matrix"
+                                            values="0 0 0 0 0.828597 0 0 0 0 0.519175 0 0 0 0 0.209752 0 0 0 0.33 0" />
+                                        <feBlend mode="normal" in2="BackgroundImageFix"
+                                            result="effect1_dropShadow_1_258" />
+                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_258"
+                                            result="shape" />
+                                    </filter>
+                                </defs>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row col-lg-7 ps-lg-5">
+                    <div class="col-xl-4 col-lg-6">
+                        <ul class="">
+                            <li><a class="ff_slackey color_darkblue fs_18" href="#">Useful links</a></li>
+                            <li class="pt-5"><a class="ff_poppins fs_14 color_halfblueopacity" href="#">FAQs</a></li>
+                            <li class="pt-3"><a class="ff_poppins fs_14 color_halfblueopacity" href="">Shop</a></li>
+                            <li class="pt-3"><a class="ff_poppins fs_14 color_halfblueopacity" href="#">Privacy
+                                    Policy</a></li>
+                            <li class="pt-3"><a class="ff_poppins fs_14 color_halfblueopacity" href="#">Terms of Use</a>
+                            </li>
+                            <li class="pt-3"><a class="ff_poppins fs_14 color_halfblueopacity" href="#">Site Map</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col-lg-6 col-xl-4">
+                        <ul class="">
+                            <li><a class="ff_slackey color_darkblue fs_18" href="#">Explore</a></li>
+                            <li class="pt-5"><a class="ff_poppins fs_14 color_halfblueopacity" href="#">About Us</a>
+                            </li>
+                            <li class="pt-3"><a class="ff_poppins fs_14 color_halfblueopacity" href="">Services</a></li>
+                            <li class="pt-3"><a class="ff_poppins fs_14 color_halfblueopacity" href="#">Our Team</a>
+                            </li>
+                            <li class="pt-3"><a class="ff_poppins fs_14 color_halfblueopacity" href="#">Adopt Pet</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-4 col-lg-12">
+                        <ul class="">
+                            <li><a class="ff_slackey color_darkblue fs_18" href="#">Contact Info</a></li>
+                            <li class="pt-5"><a class="ff_poppins fs_14 color_halfblueopacity" href="#">361-777-5681</a>
+                            </li>
+                            <li class="pt-3"><a class="ff_poppins fs_14 color_halfblueopacity" href="">654 White
+                                    Avenue</a></li>
+                            <li class="pt-3"><a class="ff_poppins fs_14 color_halfblueopacity" href="#">Portland, TX
+                                    78374</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg_bodycolor1">
+        <div class="container my-container">
+            <div class="footer-line"></div>
+            <p class="ff_poppins color-black text-center py-3 mb-0">Copyright 2022 | Uitaskca</p>
+        </div>
+    </section>
+
+    <a class="my-tag" href="https://www.w3schools.com/css/css_pseudo_elements.asp">hello-world</a>
+    <a class="tag" href="https://www.w3schools.com/css/css_pseudo_elements.asp">hello-world</a>
+    <a href="">hello</a>
+
+    <!-- j quairy min js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- slick min js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
         crossorigin="anonymous"></script>
+    <script>
+        $('.responsive').slick({
+            dots: false,
+            infinite: true,
+            nextArrow: ".next",
+            prevArrow: ".prev",
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            responsive: [
+                {
+                    breakpoint: 1024,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: true
+                    }
+                },
+                {
+                    breakpoint: 600,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        slidesToShow: 1,
+                        slidesToScroll: 1
+                    }
+                }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+    </script>
 </body>
 
 </html>
