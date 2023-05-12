@@ -220,6 +220,9 @@ ul {
     right: 120px;
 
 }
+.top_0{
+    top: 0;
+}
 
 .bottom_50 {
     bottom: 50px;
@@ -381,14 +384,15 @@ input[type=checkbox]:checked {
     background: #FB901A;
     box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
     color: white !important;
+  
 }
 
 .our_service_underline::after {
     content: '';
     position: absolute;
     width: 0;
-    height: 3px;
-    bottom: -4px;
+    height: 2px;
+    bottom: 1px;
     left: 0px;
     color: white !important;
     background-color: white !important;
@@ -447,7 +451,7 @@ input[type=checkbox]:checked {
 
 .nav_hover:hover {
     color: #000958;
-    font-weight: 600;
+    -webkit-text-stroke: 1px;
 }
 
 .signup_hover:hover {
@@ -455,6 +459,7 @@ input[type=checkbox]:checked {
     color: white !important;
     transform: translateY(-10px);
     box-shadow: 0px 0px 10px -8px #000958;
+    transition: all 0.2s linear;
 
 }
 
@@ -472,8 +477,62 @@ input[type=checkbox]:checked {
         bottom: -10px;
     }
 }
+.updownblueplus {
+    animation: updownblueplus 1s linear infinite alternate;
+}
+
+@keyframes updownblueplus {
+    0% {
+        top: 50px;
+    }
+
+    100% {
+        top: 40px;
+    }
+}
+.updownorangeplus {
+    animation: updownorangeplus 1s linear infinite alternate;
+}
+
+@keyframes updownorangeplus {
+    0% {
+        bottom: 50px;
+    }
+
+    100% {
+        bottom: 40px;
+    }
+}
+.updownzigzag {
+    animation: updownzigzag 1s linear infinite alternate;
+}
+
+@keyframes updownzigzag {
+    0% {
+        bottom: -60px;
+    }
+
+    100% {
+        bottom: -50px;
+    }
+}
+.updowndots {
+    animation: updowndots 1s linear infinite alternate;
+}
+
+@keyframes updowndots {
+    0% {
+        top: 0px;
+    }
+
+    100% {
+        top: 10px;
+    }
+}
+
 
 /* media screens  */
+
 @media (max-width:1600px) {
     .left_330 {
         left: 372px;
