@@ -16,6 +16,9 @@
     }
 }
 
+p {
+    margin-bottom: 0 !important;
+}
 
 .border-style {
     border: 10px solid #FFF4EA;
@@ -53,10 +56,38 @@
     left: 0;
 }
 
+.updownline {
+    animation: updownline 1s linear infinite alternate;
+}
+
+@keyframes updownline {
+    0% {
+        top: 5%;
+    }
+
+    100% {
+        top: 10%;
+    }
+}
+
 .circles {
     position: absolute;
     top: 2%;
     right: 2%;
+}
+
+.updowncircle {
+    animation: updowncircle 0.5s linear infinite alternate;
+}
+
+@keyframes updowncircle {
+    0% {
+        top: 2px;
+    }
+
+    100% {
+        top: 12px;
+    }
 }
 
 .line-height-30px {
@@ -88,7 +119,7 @@
 }
 
 .arrow-position {
-    transform: translate(71%, -270%);
+    transform: translate(72.3%, -270%);
 }
 
 .next-pos {
@@ -242,7 +273,7 @@
         background-color: #FFEFDE;
         position: absolute;
         left: 0px;
-        top: 27%;
+        top: 28.5%;
     }
 
     .chart-line-2 {
@@ -251,7 +282,7 @@
         background-color: #FFEFDE;
         position: absolute;
         right: 20px;
-        top: 27%;
+        top: 28.5%;
     }
 
     .chart-line-3 {
