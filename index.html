@@ -8,69 +8,332 @@
     <!-- bootstrap css  -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <!-- slick slider css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- root css  -->
     <link rel="stylesheet" href="./assets/css/root.css">
     <!-- custom css  -->
     <link rel="stylesheet" href="./assets/css/style1.css">
+    <link rel="shortcut icon" href="./assets/images/cat-header.png" type="image/x-icon">
 </head>
 
 <body>
-    <header class="bg_buttonwhite">
-        <div>
-            <nav>
-                <div class="container_m">
-                    <div>
-                        <div class="d-flex align-items-center justify-content-between p_lg_32">
-                            <div class="position-relative z-3">
-                                <p class="m-0 ff_slackey fs_27 fw_400 "><a href="#" class="color_black">Mew</a></p>
+    <header class="bg_buttonwhite h_100vh overflow-x-hidden">
+
+        <div class="container_m ">
+            <div>
+                <div class="d-flex align-items-center position-relative z-3 justify-content-between p_lg_32">
+                    <div class="position-relative z-3">
+                        <p class="m-0 ff_slackey fs_27 fw_400 "><a href="#" class="color_black">Mew</a></p>
+                    </div>
+
+                    <div id="showul"
+                        class="navbar d-flex flex-lg-row opacity-100 flex-column align-items-center justify-content-between">
+
+                        <ul
+                            class="d-flex align-items-center flex-column  justify-content-between h-50 flex-lg-row m-0 pt_34 pb_34">
+                            <li class="pr_28 m-0 ff_poppins fw_400 fs_16 p_0"><a href="#"
+                                    class="color_lightblue nav_hover">Home</a></li>
+                            <li class="pl_28 pr_28 m-0 ff_poppins fw_400 fs_16 p_0"><a href="#"
+                                    class="color_lightblue nav_hover">About</a></li>
+                            <li class="pl_28 pr_28 m-0 ff_poppins fw_400 fs_16 p_0"><a href="#"
+                                    class="color_lightblue nav_hover">Services</a></li>
+                            <li class="pl_28 pe-lg p-0-5 m-0 ff_poppins fw_400 fs_16 p_0"><a href="#"
+                                    class="color_lightblue nav_hover">Facilities</a></li>
+                            <button
+                                class="pt_18 d-block d-lg-none pb_18 pr_32 pl_32 sign_border opacity_07 br_5 ff_poppins fw_600 fs_14 color_darkblue bg_buttonwhite m-0  signup_hover">Sign
+                                up</button>
+                        </ul>
+
+
+
+                    </div>
+                    <div class="navbar">
+                        <button
+                            class="pt_18 pb_18 pr_32 pl_32 sign_border opacity_07 br_5 ff_poppins fw_600 fs_14 color_darkblue bg_buttonwhite signup_hover m-0">Sign
+                            up</button>
+                    </div>
+
+                    <span class="menuicon d-none" id="shownav" onclick="shownav()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+
+                </div>
+            </div>
+
+        </div>
+        <div class="flex-grow-1 overflow-x-hidden">
+            <div class="container_m ">
+                <div class="row justify-content-end justify-content-lg-between ">
+                    <div class="col-lg-5 col-12 ">
+                        <div class="position-absolute z-1 left_0 d_none">
+                            <img src="./assets/images/cat-header.png" alt="cat image" class="w-100 mw_552 w_80  w_65">
+
+                            <div class="position-absolute z-1 right_-10 bottom_-15">
+                                <img src="./assets/images/dog-header.png" alt="dog image"
+                                    class="w-100 mw_300  w_80 w_65 w_100">
                             </div>
-
-                            <div id="showul"
-                                class="navbar d-flex flex-lg-row flex-column align-items-center justify-content-between">
-
-                                <ul
-                                    class="d-flex align-items-center flex-column justify-content-between h-50 flex-lg-row m-0 pt_34 pb_34">
-                                    <li class="pr_28 m-0 ff_poppins fw_400 fs_16 p_0"><a href="#"
-                                            class="color_lightblue">Home</a></li>
-                                    <li class="pl_28 pr_28 m-0 ff_poppins fw_400 fs_16 p_0"><a href="#"
-                                            class="color_lightblue">About</a></li>
-                                    <li class="pl_28 pr_28 m-0 ff_poppins fw_400 fs_16 p_0"><a href="#"
-                                            class="color_lightblue">Services</a></li>
-                                    <li class="pl_28 pe-lg p-0-5 m-0 ff_poppins fw_400 fs_16 p_0"><a href="#"
-                                            class="color_lightblue">Facilities</a></li>
-                                    <button
-                                        class="pt_18 d-block d-lg-none pb_18 pr_32 pl_32 sign_border opacity_07 br_5 ff_poppins fw_600 fs_14 color_darkblue bg_buttonwhite m-0">Sign
-                                        up</button>
-                                </ul>
-
-
-
-                            </div>
-                            <div class="navbar">
-                                <button
-                                    class="pt_18 pb_18 pr_32 pl_32 sign_border opacity_07 br_5 ff_poppins fw_600 fs_14 color_darkblue bg_buttonwhite m-0">Sign
-                                    up</button>
-                            </div>
-
-                            <span class="menuicon d-none" id="shownav" onclick="shownav()">
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
-
                         </div>
+
+                        <div class="position-relative d-block d-lg-none">
+                            <img src="./assets/images/cat-header.png" alt="cat image"
+                                class="w-100 mw_552 w_80 w_65 w_53 w_45">
+
+                            <div class="position-absolute right_-10 bottom_-15">
+                                <img src="./assets/images/dog-header.png" alt="dog image"
+                                    class="w-100 mw_300 h_241 w_70 w_50 w_35">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 col-12 py-5 mt-5 mt-lg-0">
+                        <h1 class="ff_slackey fw_400 fs_55 color_darkblue m-0">We take care of your pet and help them to
+                            grow <img src="./assets/images/heart-emoji.png" alt="heart emoji" class="updowncall position-relative"></h1>
+                        <p class="pt_34 ff_poppins fw_500 fs_16 m-0 color_halfblueopacity mw_482">Best pets are waiting
+                            for adoption. Find out the the perfect one you will like it. It’s our promise.</p>
+                        <div class="d-flex  align-items-center pt-5 pb_14">
+                            <button
+                                class="ff_poppins fw_600 fs_16 text-white contact_us_hover px_26_py_22 bg_carrot border-0 br_10 me-2">Contact
+                                us</button>
+                            <div class="d-flex ps-sm-5 ps-0">
+                                <a href="#"><img src="./assets/images/contactus-1.png" alt="contact us image 1" class="hover_7 "></a>
+                                <a href="#"><img src="./assets/images/contactus-2.png" alt="contact us image 2"
+                                        class="ml_-15 hover_7 z-2"></a>
+                                <a href="#"><img src="./assets/images/contactus-3.png" alt="contact us image 2"
+                                        class="ml_-15 hover_7 z-2"></a>
+                                <a href="#"><img src="./assets/images/contactus-4.png" alt="contact us image 4"
+                                        class="ml_-15 hover_7 z-2"></a>
+                                <a href="#"><img src="./assets/images/contactus-5.png" alt="contact us image 5"
+                                        class="ml_-15 hover_7 z-2"></a>
+                            </div>
+                        </div>
+                        <div class="d-flex pt-5">
+                            <img src="./assets/images/how-to-take-care-before-pet-footprint.png" alt="footprint image"
+                                class="h_23 w_22 mt-1 updowncall position-relative">
+                            <div class="pl_18">
+                                <h3 class="m-0 ff_slackey fw_400 fs_20 color_halfblueopacity lh_30">How to take care
+                                </h3>
+                                <p class="m-0 ff_poppins fw_400 fs_16 color_halfblueopacity lh_30">perfect one you will
+                                    like it. It’s our promise.</p>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>
-            </nav>
-        </div>
-        <div class="row pt-5">
-            <div class="col-6">
-
+                <div class="position-absolute">
+                    <img src="./assets/images/header-star.png" alt="stars"
+                        class="position-absolute  bottom_350 left_330 dis_none">
+                    <img src="./assets/images/rings.png" alt="rings"
+                        class="position-absolute left_1040 bottom_75 d_none">
+                    <img src="./assets/images/header-petfootprint.png " alt="pet footprint"
+                        class="position-absolute bottom_-20 right_120 d_none">
+                </div>
             </div>
         </div>
     </header>
+    <section class="bg_buttonwhite">
+        <div class="container_m pt-lg-5 pt-0 ">
+            <div class="pt-lg-0 pb-5 pt-5">
+                <div class="orange_box mh_209 mt-5 mt-lg-0 w-100">
+                    <div class="row flex-column-reverse flex-lg-row pb_47">
+                        <div class="col-lg-7 col-12">
 
+                            <div class="d-flex justify-content-around ">
+                                <div class=" padding_orange_box">
+                                    <p class="ff_poppins fw_400 fs_18 text-white m-0">Adopted</p>
+                                    <p class="ff_slackey fw_400 fs_35 text-white m-0 pt_18 pt_0_600">2500+</p>
+                                </div>
+                                <hr class="bg_white d_none_600 w_3 h_80 mt_70">
+                                <div class=" padding_orange_box">
+                                    <p class="ff_poppins fw_400 fs_18 text-white m-0">Customers</p>
+                                    <p class="ff_slackey fw_400 fs_35 text-white m-0 pt_18 pt_0_600">1850+</p>
+                                </div>
+                                <hr class="bg_white w_3 d_none_600 h_80 mt_70">
+                                <div class=" padding_orange_box">
+                                    <p class="ff_poppins fw_400 fs_18 text-white m-0">Testimonials</p>
+                                    <p class="ff_slackey fw_400 fs_35 text-white m-0 pt_18 pt_0_600">1300+</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-5 col-12 p-0">
+                            <div class="center_992">
+                                <div class="bluegreen_box w-100 w_90_576 mt_-90 w_450_992">
+                                    <div class="padding_bluegreen_box mt_-28 mh_233">
+                                        <p class="ff_poppins fw_500 fs_16 text-white m-0 lh_28">Lorem ipsum dolor sit
+                                            amet,
+                                            consectetur ipcing elit, sed do eiusmod tempor incididu
+                                            ut labore et quis nostrud sed do
+                                            eius .....</p>
+                                        <div class="d-flex justify-content-between align-items-center pt_13 ">
+                                            <div>
+                                                <div class="line m-0"></div>
+                                                <p class="ff_slackey fw_400 fs_18 text-white pt_26 m-0">Daniel Kahneman
+                                                </p>
+                                            </div>
+                                            <div>
+                                                <img src="./assets/images/bluegreen_box_image.png"
+                                                    alt="blue green box man image">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pt_75 pb_47">
+                <div class="row pb-5">
+                    <div class="col-lg-7 col-12">
+                        <h2 class="ff_slackey fw_400 fs_45 lh_55 color_darkblue">Lets book a call and stay connected
+                        </h2>
+                        <div class="d-flex justify-content-between align-items-center pt_26 mw_450">
+                            <div class="d-flex align-items-center"><input type="checkbox" checked="checked">
+                                <label for="check"
+                                    class="pl_20 m-0 ff_poppins fw_500 fs_18 lh_18 color_skyblue">Vaccination
+                                    Service</label>
+                            </div>
+                            <div class="d-flex align-items-center"><input type="checkbox" checked="checked">
+                                <label for="check"
+                                    class="pl_20 m-0 ff_poppins fw_500 fs_18 lh_18 color_skyblue">Veterinary
+                                    Service</label>
+                            </div>
+                        </div>
+                        <p class="ff_poppins fw_400 fs_16 lh_30 color_halfblueopacity m-0 pt_40">Lorem ipsum dolor sit
+                            amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                            magna
+                            aliqua. Ut enim ad minim velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <div class="d-flex align-items-center pt_40">
+                            <button class="p_22 ff_poppins fw_600 contact_us_hover fs_16 text-white bg_carrot br_10 border-0 m-0">Book a
+                                Schedule</button>
+                            <div class="d-flex align-items-center pl_29">
+                                <a href="#"><img src="./assets/images/call-icon.png" alt="call icon"
+                                        class="w_52 h_39 updowncall position-relative"></a>
+                                <p class="m-0 ff_poppins fs_18 fw_500 "><a href="#" class="color_skyblue">Emergency
+                                        Call</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-12">
+                        <div class="position-relative mt-lg-0 mt-5">
+                            <img src="./assets/images/doctor-with-dog.png" alt="doctor with dog" class="w-100 ">
+                            <div>
+                                <img src="./assets/images/dots-group.png" alt="dots group"
+                                    class="position-absolute top_0 updowndots">
+                                <img src="./assets/images/blue+.png" alt="blue +"
+                                    class="position-absolute right_35 top_50 updownblueplus">
+                                <img src="./assets/images/orange+.png" alt="orange +"
+                                    class="position-absolute bottom_50 updownorangeplus">
+                                <img src="./assets/images/zigzag-line.png" alt="zigzag line"
+                                    class="position-absolute right_100 bottom_-60 updownzigzag">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our_service_bg ">
+        <div class="container">
+            <div class="pt-5 pb-5 ">
+                <div class="pt-5 pb-5">
+                    <div class="pt_23 pb_11 ">
+                        <div class="d-flex justify-content-center align-items-center m-0">
+                            <img src="./assets/images/header-petfootprint.png" alt="pet footprint" class="pt-3 m-0">
+                            <h2 class="pl_26 m-0 ff_slackey fw_400 fs_45 color_darkblue">Our Services</h2>
+                        </div>
+                        <p
+                            class="ff_poppins fw_400 fs_16 lh_30 color_halfblueopacity text-center mw_482 ms-auto me-auto pt-2 ps-2">
+                            Best pets are waiting for adoption. Find out the the perfect one you will like it. It’s our
+                            promise.</p>
+                        <div class="pt_55 center d-flex align-items-center justify-content-between">
+                            <div class="ourservice_box padding_ourservices_boxes mx-2">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/images/vaccination.png" alt="vaccination image">
+                                </div>
+                                <p
+                                    class="pt_33 m-0 ff_slackey fw_400 underline_our fs_20 color_halfblueopacity text-center">
+                                    <a href="#"
+                                        class="color_halfblueopacity our_service_underline position-relative">Vaccination</a>
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <p
+                                        class="pt_14 m-0 ff_poppins fw_400 fs_14 lh_24 color_halfblueopacity our_service_underline text-center mw_178">
+                                        Perfect one you will like it. It’s our promise.</p>
+                                </div>
+                            </div>
+                            <div class="ourservice_box padding_ourservices_boxes mx-2 mt_56">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/images/pet-gromming.png" alt="Pet Grooming image">
+                                </div>
+                                <p class="pt_33 m-0 ff_slackey fw_400 fs_20 underline_our  text-center"><a href="#"
+                                        class="color_halfblueopacity our_service_underline position-relative">Pet
+                                        Grooming</a></p>
+                                <div class="d-flex justify-content-center">
+                                    <p
+                                        class="pt_14 m-0 ff_poppins fw_400 fs_14 lh_24 color_halfblueopacity our_service_underline text-center mw_178">
+                                        Perfect one you will
+                                        like it. It’s our promise.</p>
+                                </div>
+                            </div>
+                            <div class="ourservice_box padding_ourservices_boxes mx-2">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/images/veterinary.png" alt="veterinary image">
+                                </div>
+                                <p class="pt_33 m-0 ff_slackey fw_400 fs_20 underline_our text-center">
+                                    <a href="#"
+                                        class="color_halfblueopacity our_service_underline position-relative">Veterinary</a>
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <p
+                                        class="pt_14 m-0 ff_poppins fw_400 fs_14 lh_24 color_halfblueopacity our_service_underline text-center mw_178">
+                                        Perfect one you will
+                                        like it. It’s our promise.</p>
+                                </div>
+                            </div>
+                            <div class="ourservice_box padding_ourservices_boxes mx-2 mt_56">
+                                <div class="d-flex justify-content-center">
+                                    <img src="./assets/images/cleaning.png" alt="cleaning image">
+                                </div>
+                                <p class="pt_33 m-0 ff_slackey fw_400 fs_20 underline_our text-center"><a href="#"
+                                        class="color_halfblueopacity our_service_underline position-relative">Cleaning</a>
+                                </p>
+                                <div class="d-flex justify-content-center">
+                                    <p
+                                        class="pt_14 m-0 ff_poppins fw_400 fs_14 lh_24 color_halfblueopacity our_service_underline text-center mw_178">
+                                        Perfect one you will
+                                        like it. It’s our promise.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center pt-5 position-relative">
+                            <button
+                                class="mt-30 ff_poppins fw_600 fs_16 learn_more_hover text-white border-0 bg_carrot br_10 p_22_33">Learn
+                                More</button>
+                            <div class="d-flex justify-content-center position-absolute right_350 bottom_18 d_none_500">
+                                <img src="./assets/images/tri-orange.png" alt="triangle orange"
+                                    class="orange_bright pl_15">
+                                <img src="./assets/images/tri-blue.png" alt="triangle blue" class="pl_15 blue_bright">
+                                <img src="./assets/images/tri-yellow.png" alt="triangle yellow"
+                                    class="pl_15 yellow_bright">
+                                <img src="./assets/images/tri-green.png" alt="triangle green"
+                                    class="pl_15 green_bright">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -85,6 +348,53 @@
         function shownav() {
             document.getElementById("showul").classList.toggle("nav_left0")
         }
+    </script>
+    <!-- slider  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+        integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+        integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script>
+
+        $('.center').slick({
+            centerMode: false,
+            slidesToShow: 4,
+            autoplay: true,
+            autoplaySpeed: 800,
+            responsive: [
+                {
+                    breakpoint: 1200,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 3
+                    }
+                },
+                {
+                    breakpoint: 968,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 450,
+                    settings: {
+                        arrows: false,
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
     </script>
 </body>
 
