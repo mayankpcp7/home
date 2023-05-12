@@ -221,7 +221,8 @@ ul {
     right: 120px;
 
 }
-.top_0{
+
+.top_0 {
     top: 0;
 }
 
@@ -385,7 +386,7 @@ input[type=checkbox]:checked {
     background: #FB901A;
     box-shadow: -17px 14px 68px -4px rgba(207, 174, 132, 0.25);
     color: white !important;
-  
+
 }
 
 .our_service_underline::after {
@@ -478,6 +479,7 @@ input[type=checkbox]:checked {
         bottom: -10px;
     }
 }
+
 .updownblueplus {
     animation: updownblueplus 1s linear infinite alternate;
 }
@@ -491,6 +493,7 @@ input[type=checkbox]:checked {
         top: 40px;
     }
 }
+
 .updownorangeplus {
     animation: updownorangeplus 1s linear infinite alternate;
 }
@@ -504,6 +507,7 @@ input[type=checkbox]:checked {
         bottom: 40px;
     }
 }
+
 .updownzigzag {
     animation: updownzigzag 1s linear infinite alternate;
 }
@@ -517,6 +521,7 @@ input[type=checkbox]:checked {
         bottom: -50px;
     }
 }
+
 .updowndots {
     animation: updowndots 1s linear infinite alternate;
 }
@@ -529,6 +534,15 @@ input[type=checkbox]:checked {
     100% {
         top: 10px;
     }
+}
+
+.hover_cat:hover .animation_dog {
+    transform: translate(-15%, -10%);
+
+}
+
+.animation_dog {
+    transition: 0.5 all linear !important;
 }
 
 
