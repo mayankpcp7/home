@@ -212,6 +212,11 @@ p {
     left: 0px;
     top: 27%;
 }
+.chart-line1 {
+    width: 330px;
+    height: 5px;
+    background-color: #FFEFDE;
+}
 
 .chart-line-2 {
     width: 330px;
@@ -330,7 +335,7 @@ p {
         background-color: #FFEFDE;
         position: absolute;
         left: 0px;
-        top: 27%;
+        top: 28.5%;
     }
 
     .chart-line-2 {
@@ -339,7 +344,7 @@ p {
         background-color: #FFEFDE;
         position: absolute;
         right: 20px;
-        top: 27%;
+        top: 28.5%;
     }
 
     .chart-line-3 {
