@@ -212,6 +212,7 @@ p {
     left: 0px;
     top: 27%;
 }
+
 .chart-line1 {
     width: 330px;
     height: 5px;
@@ -326,6 +327,9 @@ p {
         padding-top: 22px;
     }
 
+    .w_xl_100 {
+        width: 100%;
+    }
 }
 
 @media(max-width:1140px) {
