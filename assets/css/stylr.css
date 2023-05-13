@@ -19,7 +19,7 @@
 p {
     margin-bottom: 0 !important;
 }
-
+.border-d{border: 2px ;}
 .border-style {
     border: 10px solid #FFF4EA;
     border-radius: 100px;
